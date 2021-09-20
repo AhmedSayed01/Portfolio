@@ -28,6 +28,16 @@ header {
     margin: auto 1rem; 
     animation: animate 6s linear 0.5s, fade-in 1s linear;
 }
+
+@media only screen and (max-width:1134px) {
+    
+.nav-top a{
+    text-decoration: none;
+    color: #0e3742;
+    margin: auto 1rem; 
+    animation: animate 6s forwards linear 0.5s, fade-in 1s linear;
+}
+}
     
 .nav-top a:hover{
     color: #fff;
@@ -113,6 +123,22 @@ h2
     0 0 80px #03bcf4,
     0 0 160px #03bcf4;
     border: transparent;
+}
+
+@media only screen and (max-width:1134px) {
+    #nextbutton{
+        background-color: transparent;
+        font-size: 60px;
+        color: #0e3742;
+        border: 0px  0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+        border: transparent;
+    animation: animate 6s forwards linear 0.5s, fade-in 1s linear;
+
+    }
 }
 
 #nextbutton:hover {
